@@ -1,0 +1,257 @@
+/* nABAR */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    background-image: url(./imGES/abstract-background-sport-center_1203-993.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("./imGES/R.jpg");
+    width: 100%;
+    /* position: fixed; */
+    top: 0;
+    z-index: 9;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+ ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+   list-style: none;
+}
+.content a{
+    font-size: 3rem;
+    color: black;
+    text-decoration: none;
+
+}
+ul a:hover , a.active{
+
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 10px 0px;
+    transition: all 0.3s ease-in;
+}
+.main{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main h1{
+    color: #fff;
+}
+/* form */
+form{
+        height: 530px;
+        width: 300px;
+        margin: 50px 0px 0px 100px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 10px  5px rgb(11, 79, 82);
+        margin-top: 200px;
+        background-color: #fff;
+        
+    
+    }
+    .head-contact{
+    
+        margin: 50px auto;
+
+        text-align: center;
+        font-size: 70px;
+        font-family: cursive;
+        text-shadow: 5px 5px 10px rgb(185, 62, 152);
+        padding: 100px;
+        
+      
+    }
+    label{
+        display: block;
+        font-family: cursive;
+         padding: 5px;
+         margin-left: 35px;
+         margin-top: 30px;
+         padding: 13px;
+         font-size: 20px;
+    }
+    input{
+      border-radius: 20px;
+      height: 30px;
+      width: 200px;
+      margin-left: 35px;
+      border-color: grey;
+      
+    }
+   #submit{
+    margin-top: 40px;
+    height: 30px;
+    font-family: cursive;
+    }
+    #submit:hover{
+        background-color: rgb(23, 105, 105);
+        box-shadow: 1px 1px 3px 2px rgb(137, 202, 219);
+        font-weight: bold;
+    
+    }
+.others{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.others h1{
+    font-family
+    :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 3rem;
+
+}
+.others p{
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    text-decoration: underline;
+}
+.others textarea{
+    background-color: #c5e5e0;
+    width: 300px;
+    height: 100px;
+}
+.others h2{
+    font-size: 4rem;
+    padding-top: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.others h3{
+    font-size: 4rem;
+    padding-top: 20px;
+    color: #fff;
+    
+}
+.arrow{
+    font-size: 40px;
+    position: fixed;
+    bottom: 100px;
+    right:10px;
+    border: 2px solid white;
+    height: 60px;
+    width: 60px;
+    padding-top: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bolder;
+}
+
+/* checkbox */
+.checkbtn{
+    font-size: 3rem;
+    float: right;
+    cursor: pointer;
+    display: none;
+    
+}
+#check{
+    display: none;
+}
+
+
+@media(max-width: 1200px){
+    nav{
+        flex-wrap:wrap;
+        
+    }
+    nav ul{
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+} 
+    @media(max-width:700px){
+        .checkbtn{
+            display: block;
+        }
+        ul li{
+            padding: 20px;
+        }
+        
+           ul {
+            visibility: hidden;
+        
+            display: none;
+            
+                
+           
+            
+                
+    
+            }
+            
+            #check:checked~ul{
+            
+                visibility: visible;
+                display: block;
+                flex-direction: column;
+                
+                width: 100%;
+                height: max-content;
+                text-align: center;
+                padding: 20px;
+                
+                
+            
+        
+                
+            }
+          .main-div{
+            height: max-content;
+
+          }
+          .main-div h1{
+            font-size: 4rem;
+          }
+          form{
+            margin: 0 auto;
+            width: 300px;
+            
+            
+          }
+          .others{
+            margin: 100px 0px ;
+          }
+          .others h1 , h2{
+            text-align: center;
+            
+        }
+        textarea{
+            height: max-content;
+            width: 200px;
+        }
+        .arrow{
+            bottom:30px;
+            height: 30px;
+            width: 30px;
+            font-size: 2rem;
+            padding: 5px 0px;
+        }
+        iframe{
+            height: 400px;
+            width: 300px;
+        }
+    }

@@ -1,0 +1,455 @@
+/* nABAR */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+overflow-x: hidden;
+}
+html{
+    font-size: 10px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("./imGES/R.jpg");
+    width: 100%;
+    z-index: 99;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+ ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+   list-style: none;
+}
+.content a{
+    font-size: 3rem;
+    color: black;
+    text-decoration: none;
+
+}
+ul a:hover , a.active{
+
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 10px 0px;
+    transition: all 0.3s ease-in;
+}
+
+.heading{
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(imGES/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
+}
+.heading h1{
+    text-align: center;
+    font-size: 7rem;
+    padding-top: 280px;
+    padding-bottom: 50px;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 7px rgb(109, 47, 151);
+    letter-spacing: 10px;
+    color: #fff;
+    
+}
+.heading p{
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 5px rgb(109, 47, 151);
+}
+.cards-container{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+    background-image: url("./imGES/psychedelic-paper-shapes-with-copy-space.jpg");
+    padding: 20px 0px;
+    /* background-attachment: fixed; */
+
+}
+.cards{
+    height: 500px;
+    width: 300px;
+background-color: #fff;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+}
+.card-img{
+    height: 70%;
+    width: 100%;
+    background-color: #000000;
+    overflow: hidden;
+   
+   
+    
+}
+.card-img img{
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s ease-in;
+    
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text h1 {
+    font-size: 2.5rem;
+    padding-top: 8px;
+}
+.text p{
+    font-size: 2rem;
+    text-align: center;
+}
+.card-img:hover img{
+    cursor: pointer;
+    transform: scale(1.2);
+    
+}
+
+
+/* BOX */
+.box{
+    height: 500px;
+    width: 90%;
+    display: flex;
+    margin: 100px auto;
+    gap: 50px;
+}
+.box-1 {
+    height: 500px;
+    width: 50%;
+    background-color: #bbde97;
+    border-radius: 0px 50px 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.box-2 {
+    height: 500px;
+    width: 50%;
+    border-radius: 0px 50px 0px 50px;
+}
+
+.box-2 img{
+    border-radius: 50px 0px 50px 0px;
+    height: 100%;
+    width: 100%;
+
+}
+.box-1 h1{
+    font-size: 4rem;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box-1 p{
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:20px 40px;
+}
+/* footer */
+ /* footer */
+ 
+.footer{
+    height: max-content;
+    width: 100%;
+    background-color: rgb(68, 87, 184);
+}
+
+.name h1{
+    color: white;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.li{
+    border-bottom: 2px solid white;
+}
+.outer3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner3{
+    height: 300px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.inner3 h1 , .inner4 h1{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.inner3 p {
+    background-color: #fff;
+    width: 100px;
+    height: 5px;
+    border-radius: 20px;
+    font-style: 15px;
+    
+
+}
+.inner3 h6{
+    font-size: 18px;
+    padding: 10px 0px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 15px;
+}
+.inner4{
+     height:300px;
+     width: 300px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 20px;
+}
+.inner4 p{
+    background-color: #fff;
+    width: 100px;
+    height: 5px;
+    border-radius: 20px;
+    font-style: 15px;
+    padding-left: 150px;
+}
+.inner4 input{
+    width: 180px;
+    height: 30px;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px 0px 10px 0px ;
+}
+.inner4 button{
+    width: 180px;
+    height: 30px;
+    align-items: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 14px;
+    background-color: black;
+    border-radius: 0px 10px 0px 10px;
+    color: #fff;
+    
+}
+.last{
+    padding-top: 10px;
+    height: 40px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    gap: 50%;
+    padding-left: 100px;
+    background-color: rgb(5, 5, 74);
+    color: #fff;
+    
+
+}
+.arrow{
+    font-size: 3rem;
+    position: fixed;
+    bottom: 100px;
+    right:10px;
+    border: 2px solid white;
+    height: 60px;
+    width: 60px;
+    padding-top: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+}/* checkbox */
+.checkbtn{
+    font-size: 3rem;
+    float: right;
+    cursor: pointer;
+    display: none;
+    
+}
+#check{
+    display: none;
+}
+.object-fit{
+    height: 500px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+   
+    
+}
+.object-fit img{
+    height: 400px;
+    width: 200px;
+    object-fit: contain;
+    transition: all 1.5s ease-in;
+    
+   
+    
+
+}
+.object-fit>img:hover{
+width: 100%;
+
+
+
+}
+
+
+@media(max-width: 1200px){
+    nav{
+        flex-wrap:wrap;
+        
+    }
+    nav ul{
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    .cards-container{
+        gap: 50px;
+    }
+    .cards{
+        flex-direction: column;
+        width: 500px;
+        height: 600px;
+        gap: 50px;
+    }
+    .box{
+        flex-direction: column;
+        height: max-content;
+        align-items: center;
+    }
+    .box-1 , .box-2{
+        width: 500px;
+    }
+    .outer3{
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 700px){
+    .checkbtn{
+        display: block;
+    }
+    ul li{
+        padding: 20px;
+    }
+    
+       ul {
+        visibility: hidden;
+    
+        display: none;
+        
+            
+       
+        
+            
+
+        }
+        
+        #check:checked~ul{
+        
+            visibility: visible;
+            display: block;
+            flex-direction: column;
+            
+            width: 100%;
+            height: max-content;
+            text-align: center;
+            padding: 20px;
+            
+            
+        
+    
+            
+        }
+    .heading{
+        height: max-content;
+    }
+    .heading h1{
+        font-size: 5rem;
+    }
+    .heading p{
+        font-size: 3rem;
+    }
+    .cards-container{
+        height: max-content;
+        gap: 50px;
+        flex-wrap: wrap;
+        
+        background:none;
+        background-color: teal;
+        
+        
+        
+    }
+    .cards{
+        align-items: center;
+        width: 300px;
+        height: max-content;
+        
+    }
+    .text{
+        padding-bottom: 50px;
+    }
+    .box {
+        height: max-content;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-1 , .box-2{
+        height: max-content;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        justify-content: center;
+    
+    }
+    .outer3{
+        flex-wrap:wrap;
+    }
+    .last{
+        height: max-content;
+    }
+    .arrow{
+        bottom:30px;
+        height: 30px;
+        width: 30px;
+        font-size: 2rem;
+        padding: 5px 0px;
+    }
+    .object-fit{
+        height: max-content;
+        flex-wrap: wrap;
+    }
+}
+

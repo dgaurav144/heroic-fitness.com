@@ -1,0 +1,384 @@
+/* nABAR */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./imGES/bgc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+html{
+    font-size: 10px;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url("./imGES/R.jpg");
+  /* width: 100%; */
+  /* position: fixed; */
+  top: 0;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  font-size: 3rem;
+  color: blanchedalmond;
+}
+ul a:hover , a.active{
+
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 10px 0px;
+  transition: all 0.3s ease-in;
+}
+li a{
+  text-decoration: none;
+  color: black;
+  
+}
+/* END NAV */
+.outer{
+    height: 45vw;
+    width: 90%;
+    border: 2px solid white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px 5px rgb(110, 15, 40);
+    position: relative;
+    top: 200px;
+    background-image: url(imGES/abstract-background-sport-center_1203-993.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-evenly;
+    align-items: center;
+
+   }
+   .inner{
+height: 20vw;
+width: 20vw;
+background-image: url(https://cdn.pixabay.com/photo/2017/02/04/12/25/man-2037255_1280.jpg);
+background-size: cover;
+border-radius: 50px 0px 0px 0px ;
+box-shadow: 2px 2px 20px 5px rgb(39, 5, 53);
+}
+.inner2{
+    height: 20vw;
+    width: 20vw;
+    
+    
+    background-image: url(https://cdn.pixabay.com/photo/2015/01/10/17/32/physiotherapy-595529_1280.jpg);
+    background-size: cover;
+    border-radius: 50px 0px 0px 0px ;
+    box-shadow: 2px 2px 10px 5px rgb(129, 1, 84);
+    }
+    
+    
+
+
+.heading{
+padding-top: 250px;
+display: flex;
+justify-content: center;
+
+}
+.heading h1{
+    font-size: 6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-decoration: underline;
+    
+}
+.inner-p{
+    background-image: linear-gradient(rgb(106, 215, 215),rgb(223, 239, 131));
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+}
+.inner-p h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: underline;
+    font-size: 2.5rem;
+}
+.inner-p p{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* flipbox */
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */ 
+
+}
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+     transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side */
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-box-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .dabba{
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+    padding-top: 450px;
+  }
+ 
+  .dabba2{
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+    padding-top: 100px;
+  }
+  .flip-box-back h2{
+    font-size: 2rem;
+    padding-top: 20px;
+  }
+  .flip-box-back p{
+    font-size: 1.5rem;
+    padding: 20px 45px;
+  }
+  .flip-heading h1{
+position: relative;
+top: 350px;
+text-align: center;
+font-size: 5rem;
+text-decoration: underline;
+
+  }
+
+
+
+
+
+  .space{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+  }
+  .space h1{
+    font-size: 4.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-decoration: underline;
+
+  }
+  .space p{
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    word-spacing: 2px;
+    text-decoration: underline;
+  }
+  .arrow{
+    font-size: 3rem;
+    position: fixed;
+    bottom: 100px;
+    right:10px;
+    border: 2px solid white;
+    height: 60px;
+    width: 60px;
+    padding-top: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+}
+.fit{
+   height: 500px;
+   width: 100%;
+   margin: 0 auto; 
+   display: flex;
+   overflow: auto;
+   gap: 100px
+  
+   
+}
+.fit img{
+  height: 80%;
+  width: 80%;
+}
+.last1{
+  height: 50px;
+  background-color: #6c19d2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+.last1 h2{
+  font-family: cursive;
+  color: #fff;
+}
+.gif{
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.gif img{
+  height: 80%;
+  width: 40%;
+}
+.s{
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 20px;
+}
+
+@media(max-width:1200px){
+  
+  nav{
+    flex-wrap:wrap;
+    
+}
+nav ul{
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.heading h1{
+  text-align: center;
+  font-size: 4rem;
+}
+.outer{
+  height: max-content;
+  flex-direction: column;
+  padding: 50px 0px ;
+}
+.inner , .inner2{
+  height: 300px;
+  width: 300px;
+
+}
+.inner-p{
+  width: 300px;
+  
+  height: max-content;
+}
+.dabba, .dabba2 {
+  flex-direction: column;
+  align-items: center;
+}
+.space p , .space h1{
+  text-align: center;
+}
+}
+
+  @media(max-width:700px){
+  nav{
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+  }
+  nav ul{
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+    .heading h1{
+      font-size: 3rem;
+      text-align: center;
+    }
+    .outer{
+      height: max-content;
+      flex-direction: column;
+      align-items: center;
+
+    }
+    .inner-p{
+      width: 250px;
+      height: max-content;
+      padding: 50px 0px ;
+    }
+    .inner , .inner2{
+      height: 200px;
+      width: 200px;
+    }
+    .flip-heading h1{
+      font-size: 3rem;
+      text-align: center;
+    }
+      .dabba , .dabba2{
+      flex-wrap: wrap;
+    }
+    .space h1{
+      font-size: 3rem;
+      text-align: center;
+      
+    }
+    .arrow{
+      bottom:30px;
+      height: 30px;
+      width: 30px;
+      font-size: 2rem;
+      padding: 5px 0px;
+  }
+  .fit{
+    height: max-content;
+  }
+  .last1 h2{
+    font-size: 1.5rem;
+  }
+  .gif{
+    height: max-content;
+    flex-wrap: wrap;
+  }
+  }
+  

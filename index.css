@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+body{
+    /* overflow-y: hidden; */
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("./imGES/R.jpg");
+    /* width: 100%; */
+    /* position: fixed; */
+    top: 0;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    font-size: 3rem;
+    color: blanchedalmond;
+}
+ul a:hover , a.active{
+
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 10px 0px;
+    transition: all 0.3s ease-in;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    
+}
+/* nav end */
+.hero{
+    background-image: url("./imGES/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg") ;
+    height: 900px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.drop li{
+    background-color: #c45050;
+    padding: 5px 0px;
+    border: 2px solid;
+}
+
+
+
+.main:hover .drop{
+    display:inline;
+    
+}
+
+
+
+/* Heading of home page */
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.heading h1{
+    font-size: 10rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px black;
+  
+}
+.heading p{
+    font-size: 3rem;
+    padding-top: 50px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 2nd div sec of home page */
+.outer{
+    height: 650px;
+    width: 100%;
+    border : 1px solid white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.inner{
+    height:100%;
+    width: 50%;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.inner img{
+    height: 100%;
+    width: 100%;
+}
+.inner h1{
+    color: white;
+    font-size: 5rem;
+    padding-top: 50px;
+}
+
+.inner h2{
+    color: white;
+    font-size: 4rem;
+    text-decoration: underline;
+    padding-top: 100px;
+}
+.inner p{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 50px;
+    width: 80%;
+}
+.but{
+    padding-top: 60px;
+}
+.but button{
+    height: 40px;
+    width: 200px;
+    font-size: 1.8rem;
+    background-color: black;
+    border: 1px solid white;
+   
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    transition: all 0.4s ease-in;
+}
+.but a{
+    text-decoration: none;
+    color: white;
+}
+.but:hover button {
+    background-color: #fff;
+    color: black;
+}
+button:hover a{
+    color:black;
+}
+
+/* 2nd division end */
+
+.outer-2{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-around;
+    background-image: url("./imGES/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.text h1{
+    font-size: 6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+.inner2{
+    height: 500px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inner2 img{
+    height: 100%;
+    width: 100%;
+}
+hr{
+    border-top: 2px solid black;
+    
+}
+.inner2 h1 {
+    font-size: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10px;
+    color: #fff;
+    
+}
+.inner2 p{
+    font-size: 2rem;
+    width: 80%;
+    padding-top: 40px;
+    color: #fff;
+}
+.inner2 h2{
+    font-size: 2rem;
+    padding-top: 20px;
+    color: #fff;
+}
+.choose{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.choose select{
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: #fff;
+}
+.but2{
+    padding-top:20px;
+}
+ .but2 button{
+    height: 30px;
+    width: 100px;
+    background-color: #243ddc;
+    color: #fff;
+ }
+
+
+
+
+
+ /* footer */
+ 
+.footer{
+    height: max-content;
+    width: 100%;
+    background-color: rgb(68, 87, 184);
+}
+
+.name h1{
+    color: white;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.li{
+    border-bottom: 2px solid white;
+}
+.outer3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner3{
+    height: 300px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.inner3 h1 , .inner4 h1{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.inner3 p {
+    background-color: #fff;
+    width: 100px;
+    height: 5px;
+    border-radius: 20px;
+    font-style: 15px;
+    
+
+}
+.inner3 h6{
+    font-size: 18px;
+    padding: 10px 0px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 15px;
+}
+.inner4{
+     height:300px;
+     width: 300px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 20px;
+}
+.inner4 p{
+    background-color: #fff;
+    width: 100px;
+    height: 5px;
+    border-radius: 20px;
+    font-style: 15px;
+    padding-left: 150px;
+}
+.inner4 input{
+    width: 180px;
+    height: 30px;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px 0px 10px 0px ;
+}
+.inner4 button{
+    width: 180px;
+    height: 30px;
+    align-items: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 14px;
+    background-color: black;
+    border-radius: 0px 10px 0px 10px;
+    color: #fff;
+    
+}
+.last{
+    padding-top: 10px;
+    height: 40px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    gap: 50%;
+    padding-left: 100px;
+    background-color: rgb(5, 5, 74);
+    color: #fff;
+    
+
+}
+.arrow{
+    font-size: 3rem;
+    position: fixed;
+    bottom: 100px;
+    right:10px;
+    border: 2px solid white;
+    height: 60px;
+    width: 60px;
+    padding-top: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+}
+/* checkbox */
+.checkbtn{
+    font-size: 3rem;
+    float: right;
+    cursor: pointer;
+    display: none;
+    
+}
+#check{
+    display: none;
+}
+@media(max-width:1200px){
+    nav{
+        flex-wrap:wrap;
+    }
+    nav ul{
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .outer , .outer-2{
+        flex-direction: column;
+        height: max-content;
+        align-items: center;
+    }
+    .inner , .inner2{
+        width: 600px;
+        border: none;
+    }
+}
+
+
+
+       
+   @media(max-width: 700px){ 
+    .checkbtn{
+        display: block;
+    }
+    ul li{
+        padding: 20px;
+    }
+    
+       ul {
+        visibility: hidden;
+    
+        display: none;
+        
+            
+       
+        
+            
+
+        }
+        
+        #check:checked~ul{
+        
+            visibility: visible;
+            display: block;
+            flex-direction: column;
+            
+            width: 100%;
+            height: max-content;
+            text-align: center;
+            padding: 20px;           
+        }
+        .heading h1{
+            font-size: 4rem;
+        }
+        .heading p{
+            font-size: 2rem;
+        }
+        .outer{
+            flex-direction: column;
+            height:max-content;
+        }
+        .inner h1{
+            font-size: 4rem;
+            text-align: center;
+
+        }
+        .inner{
+            border: none;
+            width: 350px;
+            height: max-content;
+        }
+        .inner img{
+            width: 350px;
+            height: 400px;
+            padding: 50px;
+        }
+        .inner h2{
+            font-size:3rem;
+        }
+        
+        .text h1{
+            font-size: 4rem;
+        }
+        .outer-2{
+            height:max-content;
+            border: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .inner2{
+            height: max-content;
+            
+            width: 300px;
+            padding:20px 0px;
+        }
+        .inner2 h1{
+            text-align: center;
+            font-size: 3rem;
+        }
+        .inner2 img{
+            height: 350px;
+            width: 300px;
+
+        }
+        .outer3 {
+        
+            height: max-content;
+        
+            flex-wrap: wrap;
+        }
+        .last{
+            width: 100%;
+        }
+        .arrow{
+            bottom:30px;
+            height: 30px;
+            width: 30px;
+            font-size: 2rem;
+            padding: 5px 0px;
+        }
+       
+    }
+
+    
+    
